@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from rag_pipeline import load_pipeline, ask_question
 
 # Initialize app
-app = FastAPI(title="Medical RAG API")
+app = FastAPI(title="Ecommerce RAG API")
 
 # Load RAG pipeline once at startup
 chain = load_pipeline()
