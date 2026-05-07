@@ -69,7 +69,7 @@ jobs:
 
     - run: |
 
-        docker tag medical-rag ${{ secrets.DOCKER_USERNAME }}/medical-rag:latest
+        docker tag ecommerce-rag ${{ secrets.DOCKER_USERNAME }}/ecommerce-rag:latest
 
-        docker push ${{ secrets.DOCKER_USERNAME }}/medical-rag:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/ecommerce-rag:latest
  
