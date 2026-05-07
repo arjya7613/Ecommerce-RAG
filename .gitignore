@@ -1,0 +1,9 @@
+.env
+
+__pychache__/
+
+*.pyc
+
+faiss_store/
+
+venv/
