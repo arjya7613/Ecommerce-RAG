@@ -10,3 +10,4 @@ python-dotenv==1.1.1
 sentence-transformers==5.4.0
 fastapi==0.136.0
 uvicorn
+requests
