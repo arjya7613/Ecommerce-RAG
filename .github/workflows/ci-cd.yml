@@ -55,7 +55,7 @@ jobs:
 
       run: |
 
-        docker build -t Ecommerce-rag .
+        docker build -t ecommerce-rag .
  
     - name: Push to DockerHub
 
